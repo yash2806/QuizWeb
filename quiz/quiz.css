@@ -1,0 +1,112 @@
+body
+{
+	background: url("https://onlyvectorbackgrounds.com/wp-content/uploads/2018/10/Abstract-Geometric-Background-Grey.jpg") no-repeat;
+	background-size: cover;
+}
+#heading
+{       position: absolute;
+	    left:17%;
+    	width: 1000px;
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 1px solid #00038c;
+		box-shadow: 0 0 10px 3px #fff;
+}
+#text
+{
+	 text-align: center;
+}
+#quiz
+{
+	    height: 330px;
+    	width: 60%;
+    	position: absolute;
+    	left:20%;
+    	top: 30%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: none;
+		box-shadow: 0 0 10px 3px #fff;
+	
+}
+#question
+{
+   padding: 20px;
+   font-size: 23px;
+   background: grey;
+   border-radius: 10px;
+   margin: 10px 0 10px 0;
+   color: #f6f6f6;
+}
+.option{
+	width: 470px;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px;
+	background: rgba(255,255,255,0.5);
+	margin: 20px;
+	color: #000000;
+	border: 2px solid grey; 
+	border-radius: 5px;
+}
+
+.option:hover{
+	background: #4169E1;
+	color: #f6f6f6;	
+}
+#next
+{
+	font-family: 'Lato'; 
+	background-color:  transparent;
+	width: 10%;
+	height: 4%px;
+	border: 1px solid grey;
+	 /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+	cursor: pointer;;
+	float: left;
+	 padding: 10px 10px;
+	 margin-left: 20px;
+	
+}
+
+#quit
+{
+	/* position: absolute;
+	right:  30px;
+	bottom:   30px; */
+	font-family: 'Lato'; 
+	background-color: transparent;
+	font-size: 20px;
+	border: 1px solid grey;
+	/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+	cursor: pointer;
+	float: right;
+	padding: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+#next:hover{
+		background-color: red;
+		color: white;
+}
+#quit:hover{
+	background-color: red;
+	color: white;
+}
+#result
+{
+		font-size:40px;
+	 	text-align: center;
+    	height: 100px;
+    	width: 60%;
+    	position: absolute;
+    	left:20%;
+    	top: 30%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		/* border: 1px solid black; */
+		box-shadow: 0 0 8px 3px #fff;
+}
